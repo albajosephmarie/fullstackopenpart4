@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/blogs
+
+###
+###
+POST http://localhost:3001/api/blogs HTTP/1.1
+content-Type: application/json
+
+{
+  "title": "Things I need",
+  "url": "http://localhost:3001/api/", 
+  "author": "Dan Abramov",
+  "likes": "0"
+}
